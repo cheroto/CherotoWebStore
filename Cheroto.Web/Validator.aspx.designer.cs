@@ -10,7 +10,7 @@
 namespace Cheroto.Web {
     
     
-    public partial class Default {
+    public partial class Validator {
         
         /// <summary>
         /// form1 control.
@@ -31,30 +31,30 @@ namespace Cheroto.Web {
         protected global::Cheroto.Web.WebControls.Menu Menu;
         
         /// <summary>
-        /// txtNumber control.
+        /// txtRG control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtRG;
         
         /// <summary>
-        /// btnSubmit control.
+        /// btnValidate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Button btnValidate;
         
         /// <summary>
-        /// ltrHelloWorld control.
+        /// ltrIsValid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrHelloWorld;
+        protected global::System.Web.UI.WebControls.Literal ltrIsValid;
     }
 }

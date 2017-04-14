@@ -10,7 +10,16 @@
 namespace Cheroto.Web {
     
     
-    public partial class Default {
+    public partial class MyMasterPage {
+        
+        /// <summary>
+        /// ContentPlaceHolderHead control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolderHead;
         
         /// <summary>
         /// form1 control.
@@ -31,30 +40,12 @@ namespace Cheroto.Web {
         protected global::Cheroto.Web.WebControls.Menu Menu;
         
         /// <summary>
-        /// txtNumber control.
+        /// ContentPlaceHolderBody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumber;
-        
-        /// <summary>
-        /// btnSubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
-        
-        /// <summary>
-        /// ltrHelloWorld control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrHelloWorld;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolderBody;
     }
 }
