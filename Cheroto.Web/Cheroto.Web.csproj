@@ -134,6 +134,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="ListProducts.aspx" />
+    <Content Include="style.css" />
     <Content Include="Validator.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebControls\Menu.ascx" />
