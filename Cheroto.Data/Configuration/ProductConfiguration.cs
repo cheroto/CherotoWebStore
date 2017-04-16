@@ -15,7 +15,7 @@ namespace Cheroto.Data.Configuration
             ToTable("Products");
             HasKey(x => x.ProductID);
             Property(x => x.ProductName);
-            //Property(x => x.UnitPrice);
+            Property(x => x.UnitPrice);
         }
     }
 }

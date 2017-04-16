@@ -10,7 +10,7 @@
 namespace Cheroto.Web {
     
     
-    public partial class ListCustomers {
+    public partial class ListProducts {
         
         /// <summary>
         /// dgdProducts control.
@@ -20,5 +20,6 @@ namespace Cheroto.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataGrid dgdProducts;
+   
     }
 }

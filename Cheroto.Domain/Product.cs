@@ -10,6 +10,6 @@ namespace Cheroto.Domain
     {
         public int ProductID { get; set; }
         public string ProductName { get; set; }
-        //public Single UnitPrice { get; set; }
+        public decimal UnitPrice { get; set; }
     }
 }

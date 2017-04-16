@@ -8,7 +8,7 @@ using Cheroto.Data;
 
 namespace Cheroto.Web
 {
-    public partial class ListCustomers : System.Web.UI.Page
+    public partial class ListProducts : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -17,6 +17,11 @@ namespace Cheroto.Web
 
             dgdProducts.DataSource = productList;
             dgdProducts.DataBind();
+        }
+
+        protected void dgdProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
