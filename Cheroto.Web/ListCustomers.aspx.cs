@@ -8,16 +8,16 @@ using Cheroto.Data;
 
 namespace Cheroto.Web
 {
-    public partial class ListProducts : System.Web.UI.Page
+    public partial class ListCustomers : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            var repository = new ProductRepository();
-            var productList = repository.GetProducts();
+            var repository = new CustomerRepository();
+            var customerList = repository.GetCustomers();
 
-            dgdProducts.DataSource = productList;
-            dgdProducts.DataBind();
+            dgdCustomers.DataSource = customerList;
+            dgdCustomers.DataBind();
         }
-
     }
 }

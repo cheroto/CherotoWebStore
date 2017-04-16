@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="ListCustomers.aspx" />
     <Content Include="ListProducts.aspx" />
     <Content Include="style.css" />
     <Content Include="Validator.aspx" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListCustomers.aspx.cs">
+      <DependentUpon>ListCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListCustomers.aspx.designer.cs">
+      <DependentUpon>ListCustomers.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListProducts.aspx.cs">
       <DependentUpon>ListProducts.aspx</DependentUpon>

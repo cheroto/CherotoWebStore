@@ -12,6 +12,7 @@ namespace Cheroto.Data
     public class CherotoContext : DbContext
     {
         public IDbSet<Product> Products { get; set; }
+        public IDbSet<Customer> Customers { get; set; }
         public CherotoContext():base("Data Source=.;Initial Catalog=Northwind;Integrated Security=True;MultipleActiveResultSets=True")
         {
 

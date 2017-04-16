@@ -10,15 +10,15 @@
 namespace Cheroto.Web {
     
     
-    public partial class ListProducts {
+    public partial class ListCustomers {
         
         /// <summary>
-        /// dgdProducts control.
+        /// dgdCustomers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataGrid dgdProducts;
+        protected global::System.Web.UI.WebControls.DataGrid dgdCustomers;
     }
 }
