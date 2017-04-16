@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VerificationDigitCalculator.cs" />
+    <Compile Include="IVerificationDigitCalculator.cs" />
+    <Compile Include="CPFVerificationDigitCalculator.cs" />
+    <Compile Include="RGVerificationDigitCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

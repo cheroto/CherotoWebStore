@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cheroto.Core
 {
-    public class VerificationDigitCalculator
+    public class RGVerificationDigitCalculator : IVerificationDigitCalculator
     {
         public string CalculateVerificationDigit(string input)
         {

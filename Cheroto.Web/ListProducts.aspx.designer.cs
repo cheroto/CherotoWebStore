@@ -10,7 +10,7 @@
 namespace Cheroto.Web {
     
     
-    public partial class ListCustomers {
+    public partial class ListProducts {
         
         /// <summary>
         /// dgdProducts control.

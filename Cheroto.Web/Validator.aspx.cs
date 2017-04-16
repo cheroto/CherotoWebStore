@@ -17,7 +17,7 @@ namespace Cheroto.Web
 
         protected void btnValidate_Click(object sender, EventArgs e)
         {
-            VerificationDigitCalculator vd = new VerificationDigitCalculator();
+            RGVerificationDigitCalculator vd = new RGVerificationDigitCalculator();
             ltrIsValid.Text = vd.CalculateVerificationDigit(txtRG.Text);
         }
     }
