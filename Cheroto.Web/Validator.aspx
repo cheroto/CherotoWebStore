@@ -1,23 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Validator.aspx.cs" Inherits="Cheroto.Web.Validator" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyMasterPage.Master" AutoEventWireup="true" CodeBehind="Validator.aspx.cs" Inherits="Cheroto.Web.Validator" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
 
-<%@ Register Src="~/WebControls/Menu.ascx" TagPrefix="uc1" TagName="Menu" %>
+    <div>
+        Please insert your R.G. 
+        <asp:TextBox runat="server" ID="txtRG"></asp:TextBox>
+        <asp:Button runat="server" ID="btnValidate" Text="Validate R.G." OnClick="btnValidate_Click"/>
+        <asp:Literal runat ="server" ID="ltrIsValid"></asp:Literal>
+    </div>
 
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <uc1:Menu runat="server" ID="Menu" />
-        <div>
-            Please insert your R.G. 
-            <asp:TextBox runat="server" ID="txtRG"></asp:TextBox>
-            <asp:Button runat="server" ID="btnValidate" Text="Validate R.G." OnClick="btnValidate_Click"/>
-            <asp:Literal runat ="server" ID="ltrIsValid"></asp:Literal>
-        </div>
-    </form>
-</body>
-</html>
+</asp:Content>
