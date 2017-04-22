@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="IVerificationDigitCalculator.cs" />
     <Compile Include="CPFVerificationDigitCalculator.cs" />
+    <Compile Include="Tester.cs" />
     <Compile Include="RGVerificationDigitCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,26 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using Cheroto.Core;
 
 namespace Cheroto.Core.Tests
 {
     [TestFixture]
-    public class RGVerificationDigitCalculatorTests
+    class CPFVerificationDigitCalculatorTests
     {
+
         [Test]
-        public void ResultVerifier()
+        public void TestResult()
         {
             //Arrange
-            var input = "20077193";
-            var expectedOutput = "0";
-            var verifier = new RGVerificationDigitCalculator();
+            var input = "130506867";
+            var expectedOutput = "07";
+            var verifier = new CPFVerificationDigitCalculator();
 
             //Act
             var output = verifier.CalculateVerificationDigit(input);
 
             //Assert
             Assert.AreEqual(expectedOutput, output);
-
         }
+
+
     }
 }

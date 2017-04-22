@@ -11,30 +11,30 @@ namespace Cheroto.Core
     {
         public string CalculateVerificationDigit(string input)
         {
-            if (input.Length != 8)
+            var charList = input.ToCharArray();
+            var numList = new List<int>();
+            foreach (char c in charList)
             {
-                throw new FormatException("Incorrect input size.");
+                numList.Add(Convert.ToInt32(c));
             }
-            var inputTempArray = input.ToCharArray();
-            var inputArray = new int[inputTempArray.Length];
-            var sum = 0;
-            for (int i = inputArray.Length - 1; i >= 0; i--)
+
+            int sum;
+            int remainder;
+
+            for (int i = 0; i < 2; i++)
             {
-                try
+                sum = 0;
+                for (int j = 0; j < numList.Count; j++)
                 {
-                    sum += Convert.ToInt32(inputTempArray[i].ToString()) * (inputArray.Length - i + 1);
+                    sum += (numList.Count + 1 - j) * numList[j];
                 }
-                catch (FormatException)
-                {
-                    throw new FormatException("Invalid Input.");
-                }
+                remainder = (11 - sum % 11 > 9) ? 0 : 11 - sum % 11;
+                numList.Add(remainder);                
             }
-            var remainder = sum % 11;
-            if (remainder > 9)
-            {
-                return "0";
-            }
-            return remainder.ToString();
+            var verificationDigits = numList[numList.Count - 2].ToString() + numList[numList.Count - 1].ToString();
+
+            return verificationDigits;
         }
+
     }
 }
