@@ -8,7 +8,7 @@ namespace Cheroto.Core.Tests
     public class RGVerificationDigitCalculatorTests
     {
         [Test]
-        public void ResultVerifier()
+        public void RG_Success()
         {
             //Arrange
             var input = "20077193";

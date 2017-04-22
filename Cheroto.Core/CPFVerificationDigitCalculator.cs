@@ -15,7 +15,7 @@ namespace Cheroto.Core
             var numList = new List<int>();
             foreach (char c in charList)
             {
-                numList.Add(Convert.ToInt32(c));
+                numList.Add(Convert.ToInt32(c.ToString()));
             }
 
             int sum;

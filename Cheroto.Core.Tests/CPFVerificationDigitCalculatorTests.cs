@@ -13,7 +13,7 @@ namespace Cheroto.Core.Tests
     {
 
         [Test]
-        public void TestResult()
+        public void CPF_Success()
         {
             //Arrange
             var input = "130506867";
