@@ -22,21 +22,48 @@ namespace Cheroto.Web {
         protected global::System.Web.UI.WebControls.TextBox txtRG;
         
         /// <summary>
-        /// btnValidate control.
+        /// btnValidateRG control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnValidate;
+        protected global::System.Web.UI.WebControls.Button btnValidateRG;
         
         /// <summary>
-        /// ltrIsValid control.
+        /// ltrIsValidRG control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrIsValid;
+        protected global::System.Web.UI.WebControls.Literal ltrIsValidRG;
+        
+        /// <summary>
+        /// txtCPF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCPF;
+        
+        /// <summary>
+        /// btnValidateCPF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnValidateCPF;
+        
+        /// <summary>
+        /// ltrIsValidCPF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltrIsValidCPF;
     }
 }

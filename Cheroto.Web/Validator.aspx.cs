@@ -15,10 +15,17 @@ namespace Cheroto.Web
 
         }
 
-        protected void btnValidate_Click(object sender, EventArgs e)
+        
+        protected void btnValidateRG_Click(object sender, EventArgs e)
         {
             RGVerificationDigitCalculator vd = new RGVerificationDigitCalculator();
-            ltrIsValid.Text = vd.CalculateVerificationDigit(txtRG.Text);
+            ltrIsValidRG.Text = vd.CalculateVerificationDigit(txtRG.Text);
+        }
+
+        protected void btnValidateCPF_Click(object sender, EventArgs e)
+        {
+            CPFVerificationDigitCalculator vd = new CPFVerificationDigitCalculator();
+            ltrIsValidCPF.Text = vd.CalculateVerificationDigit(txtCPF.Text);
         }
     }
 }

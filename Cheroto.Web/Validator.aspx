@@ -4,10 +4,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
 
     <div>
-        Please insert your R.G. 
+        <p>Please insert your R.G. </p>
         <asp:TextBox runat="server" ID="txtRG"></asp:TextBox>
-        <asp:Button runat="server" ID="btnValidate" Text="Validate R.G." OnClick="btnValidate_Click"/>
-        <asp:Literal runat ="server" ID="ltrIsValid"></asp:Literal>
+        <asp:Button runat="server" ID="btnValidateRG" Text="Validate R.G." OnClick="btnValidateRG_Click"/>
+        <br />
+        <asp:Literal runat ="server" ID="ltrIsValidRG"></asp:Literal>
+
+        <br/>
+
+        <p>Please insert your CPF</p>
+        <asp:TextBox runat="server" ID="txtCPF"></asp:TextBox>
+        <asp:Button runat="server"  ID="btnValidateCPF" Text="Validate CPF." OnClick="btnValidateCPF_Click" />
+        <br/>
+        <asp:Literal runat="server" ID="ltrIsValidCPF"></asp:Literal>
     </div>
 
 </asp:Content>
