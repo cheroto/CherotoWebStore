@@ -5,9 +5,8 @@
 }
 
 body {
-    background-image: url("https://pixabay.com/get/e832b5082ff3073ecd1f4004e1444e91e76ae3d110b3184094f1c371/background-1747776.jpg");
+    margin-top: 2em;
     margin-bottom: 2em;
-
 }
 
 .menu-region a:hover, a:visited, a:link, a:active {

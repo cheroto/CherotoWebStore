@@ -13,7 +13,6 @@
     <link href = "style.css" type = "text/css" rel = "stylesheet" > 
 </head>
 <body>
-    <p>This is a test</p>
     <form id="form1" runat="server">
         <uc1:Menu runat="server" ID="Menu" />
         <div id="body">
